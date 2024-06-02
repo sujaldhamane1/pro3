@@ -1,0 +1,93 @@
+body {
+    /* Set font family and background gradient for the body */
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, rgb(162, 0, 255) 30%, white);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.temperature-converter {
+    /* Style for the main temperature converter container */
+    background: linear-gradient(90deg in oklab, peach, rgb(255, 0, 0));
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.header {
+    /* Style for the header section containing the title and icon */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    /* Style for the title */
+    margin: 0;
+    color: #fff;
+}
+
+.temperature-icon,
+.unit-icon {
+    /* Style for temperature and unit icons */
+    font-size: 24px;
+    margin-left: 5px;
+    margin-block:-6px 10px;
+    color: #fff;
+}
+
+input {
+    /* Style for input fields */
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+input:hover,
+input:focus {
+    /* Hover and focus styles for input fields */
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: scale(1.02);
+}
+
+.unit-icon {
+    /* Style for unit icons */
+    display: inline-block;
+    width: 20%;
+    color: #fff;
+}
+
+.converter-button {
+    /* Style for the button container */
+    margin-top: 20px;
+}
+
+button {
+    /* Style for the button */
+    background: linear-gradient(45deg, #FF9A8B, #FF6A88);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    /* Hover style for the button */
+    background: linear-gradient(45deg, #FF6A88, #FF9A8B);
+}
